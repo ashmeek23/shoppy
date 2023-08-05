@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.menu-btn{
+  color: #424144;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar{
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 999;
+  background-color: #f3f4f6;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo h1{
+  color: #424144;
+  border-bottom: 4px solid #fdd961;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a{
+  display: block;
+  margin-left: 20px ;
+  color: #424144;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar .menu li a i{
+  color: #fdd961;
+}
+
+.navbar .menu li .active{
+  border-bottom: 4px solid #fdd961;
+}
+
+.navbar .menu li a:hover{
+  border-bottom: 4px solid #fdd961;
+}
+
+.content{
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  color: #424144;
+  height: 60vh;
+  width: 50%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  height: 375px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.photo {
+  flex: 1;
+  text-align: right;
+}
+
+.photo img {
+  width: 85%;
+  height: 380px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+  
+#newsletter {
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+  
+#newsletterForm {
+  margin-bottom: 20px;
+}
+  
+#newsletterForm input,
+#newsletterForm button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#newsletterForm button{
+  border: none;
+  background-color: #fdd961;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+#message {
+  color: #fdd961;
+}
+
+.sec{
+  padding: 10px 5%;
+}
+
+.sec h2{
+  text-align: center;
+}
+
+.product{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.product .card{
+  width: 310px;
+  background: #f5f5f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+
+}
+
+.product .card img{
+  height: 250px;
+  width: 100%;
+}
+
+.product .card .desc{
+  padding: 5px 20px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#contacts {
+  margin-top: 50px;
+}
